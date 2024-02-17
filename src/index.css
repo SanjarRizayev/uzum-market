@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  user-select: none;
+}
+.img-magnifier-glass {
+  position: absolute;
+  border: 3px solid #000;
+  border-radius: 50%;
+  cursor: none;
+  width: 100px;
+  height: 100px;
+}
+.css-uttm9k:hover, .css-uttm9k[data-hover] {
+  background-color: white !important;
+}
+.css-15e9f73:hover, .css-15e9f73[data-hover] {
+  background: white !important;
+}
+.css-1t0v89k:hover, .css-1t0v89k[data-hover] {
+  background: white !important;
+}
+.st0{fill:#3B5998;}
+	.st1{fill:#FFFFFF;}
+
+input{
+  all: unset;
+}
+.purpleBorder{
+  color: #7000ff;
+  border: 1px solid #7000ff;
+}
+.shadowCart {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+}
+
+.borderBottom{
+  border-bottom: 1px solid #00000015;
+}
+
+.borderTop{
+  border-top: 1px solid rgba(118,121,127,0.3)
+}
+
+.borderFull{
+  border: 1px solid rgba(118,121,127,0.3)
+}
+.borderBottomHover{
+  border-bottom: 2px solid black;
+  width: 100%;
+  overflow: hidden;
+}
+
+.click {
+  transition: 500ms;
+  left: 0;
+}
+.inpText{
+  font-size: 12px !important; 
+}
+#div{
+  border: 1px solid rgba(118,121,127,0.3);
+  border-top: none;
+  box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+  border-radius: 0 0 12px 12px;
+}
+
+.hover:hover .hoverTwo div{
+    opacity: 1;
+    left: 0
+}
+.hover:hover p {
+  color: black;
+}
+.swiper-button-prev {
+  border: 1px solid rgba(118,121,127,0.3) !important;
+  background: #ffffff50 !important;
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 100%;
+  background-image: url('../public/images/prev.png') !important;
+  background-size: 70% !important;
+  background-repeat: no-repeat !important;
+  background-position: 5px 6px !important;
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+    content: '' !important;
+}
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+  content: '' !important;
+}
+.swiper-button-next {
+  border: 1px solid rgba(118,121,127,0.3) !important;
+  background: #ffffff50 !important;
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 100%;
+  background-image: url('../public/images/next.png') !important;
+  background-size: 70% !important;
+  background-repeat: no-repeat !important;
+  background-position: 7px 6px !important;
+}
+.height {
+  height: calc(100vh - 70%) !important;
+}
+.heightTwo {
+  height: calc(100vh - 80%) !important;
+}
+.cover{
+  background-size: 100%;
+}
+
+.hoverBlock:hover .cover {
+  background-size: 105%;
+}
+.hoverBlock:hover {
+  -webkit-box-shadow: 1px 16px 22px -17px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 1px 16px 22px -17px rgba(34, 60, 80, 0.2);
+box-shadow: 1px 16px 22px -17px rgba(34, 60, 80, 0.2);
+}
+.swiper-pagination-bullet-active {
+  background: rgba(255, 255, 255, 0.7) !important;
+}
+.borderFull{
+  border: 1px solid rgba(118,121,127,0.3)
+}
+.aspect {
+  aspect-ratio: 3 / 1 !important;
+}
+.aspectImg {
+  aspect-ratio: 8 / 10.3 !important;
+}
+.aspectSwiperBlock {
+  aspect-ratio: 8 / 8.89 !important;
+}
+.aspectImgSlider{
+  aspect-ratio: 8 / 10.65 !important;
+}
+.hr{
+  margin: 32px 0 24px;
+  border-bottom: 1px solid rgba(118,121,127,0.2);
+}
+.borderFul{
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
+/* .aspectSwiper {
+  
+} */
+.textEllipsis {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.ellipsis {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 90%;
+}
+.imgSearch{
+  width: 17px;
+  height: 17px;
+  background-image: url('../public/images/search.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: invert(50%);
+}
+.divSearch {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px 15px;
+  transition: 300ms;
+  cursor: pointer;
+}
+.divSearch:hover {
+  background-color: #00000010;
+}
+.rotate{
+  top: 48%;
+  transform: rotate(90deg);
+}
+.borderY {
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+.borderB{
+  border-bottom: 2px solid #7000ff;
+}
+.footerShadow {
+  -webkit-box-shadow: 0px -2px 8px -3px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 0px -2px 8px -3px rgba(34, 60, 80, 0.2);
+box-shadow: 0px -2px 8px -3px rgba(34, 60, 80, 0.2);
+}
+
+
